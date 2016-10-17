@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Binpack</title>
+</head>
+<body>
+
+    <table>
+        <tr><td><canvas width="320" height="120" id="theCanvas"/></td></tr>
+        <tr><td><button id="click-me-button" type="button">Recreate Pop. and Pack</button></td></tr>
+    </table>
+
+    <script type="text/javascript" src="./target/scala-2.10/binpack-jsdeps.js"></script>
+
+    <script type="text/javascript" src="./target/scala-2.10/binpack-fastopt.js">
+
+    </script>
+    <script type="text/javascript">
+      client.jsClient().main();
+    </script>
+</body>
+</html>
