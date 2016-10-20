@@ -4,7 +4,7 @@
 		module="binpack-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161014183646"
+		publication="20161019183348"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

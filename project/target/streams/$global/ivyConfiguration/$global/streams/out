@@ -1,1 +1,3 @@
-[0m[[33mwarn[0m] [0mMultiple resolvers having different access mechanism configured with same name 'typesafe-ivy-releases'. To avoid conflict, Remove duplicate project resolvers (`resolvers`) or rename publishing resolver (`publishTo`).[0m
+[0m[[0mdebug[0m] [0mOther repositories:[0m
+[0m[[0mdebug[0m] [0mDefault repositories:[0m
+[0m[[0mdebug[0m] [0mUsing inline dependencies specified in Scala.[0m
