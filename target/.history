@@ -79,3 +79,25 @@ sbt clean
 clean
 dir
 exit
+fastOptJS
+reload
+fastOptJS
+reload
+fastOptJS
+reload
+fastOptJS
+clean
+reload
+fastOptJS
+exit
+clan
+clean
+fastOptJS
+run last compile:fastOptJS
+last compile:fastOptJS
+exit
+fastOptJS
+exit
+fastOptJS
+~fastOptJS
+exit

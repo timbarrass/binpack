@@ -9,16 +9,16 @@
 		extra-sbtVersion="0.13"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161019183348"/>
+		date="20161021000843"/>
 	<dependencies>
 		<module organisation="org.scala-lang" name="scala-library">
 			<revision name="2.10.4" status="release" pubdate="20140318214600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
 				<metadata-artifact status="no" details="" size="2517" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-lang\scala-library\ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-ir_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.12"/>
-				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.12"/>
-				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.12"/>
-				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-ir_2.10" conf="compile, runtime" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.6" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.10.4.jar">
 						<origin-location is-local="false" location="UNKNOWN"/>
@@ -27,25 +27,25 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="sbt-scalajs">
-			<revision name="0.6.12" status="release" pubdate="20160831195650" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-scalaVersion="2.10" extra-sbtVersion="0.13" extra-info.apiURL="http://www.scala-js.org/api/sbt-scalajs/0.6.12/" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+			<revision name="0.6.13" status="release" pubdate="20161014001651" resolver="sbt-plugin-releases" artresolver="sbt-plugin-releases" homepage="http://scala-js.org/" extra-scalaVersion="2.10" extra-sbtVersion="0.13" extra-info.apiURL="http://www.scala-js.org/api/sbt-scalajs/0.6.13/" downloaded="true" searched="true" default="false" conf="compile, default(compile)" position="0">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2423" time="0" location="C:\Users\Tim\.ivy2\cache\scala_2.10\sbt_0.13\org.scala-js\sbt-scalajs\ivy-0.6.12.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.12/ivys/ivy.xml"/>
-				<caller organisation="default" name="binpack-build" conf="compile" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<metadata-artifact status="successful" details="" size="2421" time="1636" location="C:\Users\Tim\.ivy2\cache\scala_2.10\sbt_0.13\org.scala-js\sbt-scalajs\ivy-0.6.13.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\scala_2.10\sbt_0.13\org.scala-js\sbt-scalajs\ivy-0.6.13.xml.original" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.13/ivys/ivy.xml"/>
+				<caller organisation="default" name="binpack-build" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
 				<artifacts>
-					<artifact name="sbt-scalajs" type="jar" ext="jar" status="no" details="" size="354484" time="0" location="C:\Users\Tim\.ivy2\cache\scala_2.10\sbt_0.13\org.scala-js\sbt-scalajs\jars\sbt-scalajs-0.6.12.jar">
-						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.12/jars/sbt-scalajs.jar"/>
+					<artifact name="sbt-scalajs" type="jar" ext="jar" status="successful" details="" size="367348" time="2134" location="C:\Users\Tim\.ivy2\cache\scala_2.10\sbt_0.13\org.scala-js\sbt-scalajs\jars\sbt-scalajs-0.6.13.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-js/sbt-scalajs/scala_2.10/sbt_0.13/0.6.13/jars/sbt-scalajs.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10">
-			<revision name="0.6.12" status="release" pubdate="20160831162143" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/0.6.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+			<revision name="0.6.13" status="release" pubdate="20161013230039" resolver="my-maven-proxy-releases" artresolver="my-maven-proxy-releases" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/0.6.13/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="15">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3223" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-sbt-test-adapter_2.10\ivy-0.6.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.12/scalajs-sbt-test-adapter_2.10-0.6.12.pom"/>
-				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12" extra-info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/0.6.12/"/>
+				<metadata-artifact status="successful" details="" size="2407" time="125" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-sbt-test-adapter_2.10\ivy-0.6.13.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-sbt-test-adapter_2.10\ivy-0.6.13.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.13/scalajs-sbt-test-adapter_2.10-0.6.13.pom"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13" extra-info.apiURL="http://www.scala-js.org/api/scalajs-sbt-test-adapter/0.6.13/"/>
 				<artifacts>
-					<artifact name="scalajs-sbt-test-adapter_2.10" type="jar" ext="jar" status="no" details="" size="97031" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-sbt-test-adapter_2.10\jars\scalajs-sbt-test-adapter_2.10-0.6.12.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.12/scalajs-sbt-test-adapter_2.10-0.6.12.jar"/>
+					<artifact name="scalajs-sbt-test-adapter_2.10" type="jar" ext="jar" status="successful" details="" size="99114" time="64" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-sbt-test-adapter_2.10\jars\scalajs-sbt-test-adapter_2.10-0.6.13.jar">
+						<origin-location is-local="false" location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-sbt-test-adapter_2.10/0.6.13/scalajs-sbt-test-adapter_2.10-0.6.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -54,7 +54,7 @@
 			<revision name="1.0" status="release" pubdate="20130628234435" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-sbt.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
 				<license name="BSD" url="https://github.com/sbt/test-interface/blob/master/LICENSE"/>
 				<metadata-artifact status="no" details="" size="2621" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-sbt\test-interface\ivy-1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="test-interface" type="jar" ext="jar" status="no" details="" size="14755" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"/>
@@ -63,14 +63,14 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-js-envs_2.10">
-			<revision name="0.6.12" status="release" pubdate="20160831162135" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-js-envs/0.6.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
+			<revision name="0.6.13" status="release" pubdate="20161013230029" resolver="my-maven-proxy-releases" artresolver="my-maven-proxy-releases" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-js-envs/0.6.13/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="12">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3634" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-js-envs_2.10\ivy-0.6.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-js-envs_2.10/0.6.12/scalajs-js-envs_2.10-0.6.12.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12"/>
-				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12" extra-info.apiURL="http://www.scala-js.org/api/scalajs-js-envs/0.6.12/"/>
+				<metadata-artifact status="successful" details="" size="2981" time="53" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-js-envs_2.10\ivy-0.6.13.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-js-envs_2.10\ivy-0.6.13.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-js-envs_2.10/0.6.13/scalajs-js-envs_2.10-0.6.13.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-sbt-test-adapter_2.10" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13" extra-info.apiURL="http://www.scala-js.org/api/scalajs-js-envs/0.6.13/"/>
 				<artifacts>
-					<artifact name="scalajs-js-envs_2.10" type="jar" ext="jar" status="no" details="" size="306429" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-js-envs_2.10\jars\scalajs-js-envs_2.10-0.6.12.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-js-envs_2.10/0.6.12/scalajs-js-envs_2.10-0.6.12.jar"/>
+					<artifact name="scalajs-js-envs_2.10" type="jar" ext="jar" status="successful" details="" size="306922" time="63" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-js-envs_2.10\jars\scalajs-js-envs_2.10-0.6.13.jar">
+						<origin-location is-local="false" location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-js-envs_2.10/0.6.13/scalajs-js-envs_2.10-0.6.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -79,7 +79,7 @@
 			<revision name="1.2" status="release" pubdate="20131221171238" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://webjars.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
 				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
 				<metadata-artifact status="no" details="" size="3265" time="0" location="C:\Users\Tim\.ivy2\cache\org.webjars\envjs\ivy-1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="envjs" type="jar" ext="jar" status="no" details="" size="161775" time="0" location="C:\Users\Tim\.ivy2\cache\org.webjars\envjs\jars\envjs-1.2.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/envjs/1.2/envjs-1.2.jar"/>
@@ -91,7 +91,7 @@
 			<revision name="1.7R5pre4" status="release" pubdate="20141015011202" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
 				<license name="Mozilla Public License 2.0" url="http://www.mozilla.org/MPL/2.0/"/>
 				<metadata-artifact status="no" details="" size="2877" time="0" location="C:\Users\Tim\.ivy2\cache\io.apigee\rhino\ivy-1.7R5pre4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="1.7R5pre4" rev-constraint-default="1.7R5pre4" rev-constraint-dynamic="1.7R5pre4" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="1.7R5pre4" rev-constraint-default="1.7R5pre4" rev-constraint-dynamic="1.7R5pre4" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="rhino" type="jar" ext="jar" status="no" details="" size="1160579" time="0" location="C:\Users\Tim\.ivy2\cache\io.apigee\rhino\jars\rhino-1.7R5pre4.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/apigee/rhino/1.7R5pre4/rhino-1.7R5pre4.jar"/>
@@ -100,14 +100,14 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-tools_2.10">
-			<revision name="0.6.12" status="release" pubdate="20160831162056" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-tools/0.6.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
+			<revision name="0.6.13" status="release" pubdate="20161013225930" resolver="my-maven-proxy-releases" artresolver="my-maven-proxy-releases" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-tools/0.6.13/" downloaded="true" searched="true" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="1">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="3564" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-tools_2.10\ivy-0.6.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-tools_2.10/0.6.12/scalajs-tools_2.10-0.6.12.pom"/>
-				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12" extra-info.apiURL="http://www.scala-js.org/api/scalajs-tools/0.6.12/"/>
-				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12"/>
+				<metadata-artifact status="successful" details="" size="2970" time="63" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-tools_2.10\ivy-0.6.13.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-tools_2.10\ivy-0.6.13.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-tools_2.10/0.6.13/scalajs-tools_2.10-0.6.13.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-js-envs_2.10" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13"/>
+				<caller organisation="org.scala-js" name="sbt-scalajs" conf="compile" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13" extra-info.apiURL="http://www.scala-js.org/api/scalajs-tools/0.6.13/"/>
 				<artifacts>
-					<artifact name="scalajs-tools_2.10" type="jar" ext="jar" status="no" details="" size="2314193" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-tools_2.10\jars\scalajs-tools_2.10-0.6.12.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-tools_2.10/0.6.12/scalajs-tools_2.10-0.6.12.jar"/>
+					<artifact name="scalajs-tools_2.10" type="jar" ext="jar" status="successful" details="" size="2411478" time="141" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-tools_2.10\jars\scalajs-tools_2.10-0.6.13.jar">
+						<origin-location is-local="false" location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-tools_2.10/0.6.13/scalajs-tools_2.10-0.6.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -116,7 +116,7 @@
 			<revision name="1.1.1" status="release" pubdate="20120321051133" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
 				<metadata-artifact status="no" details="" size="2894" time="0" location="C:\Users\Tim\.ivy2\cache\com.googlecode.json-simple\json-simple\ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="json-simple" type="bundle" ext="jar" status="no" details="" size="23931" time="0" location="C:\Users\Tim\.ivy2\cache\com.googlecode.json-simple\json-simple\bundles\json-simple-1.1.1.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar"/>
@@ -127,7 +127,7 @@
 		<module organisation="org.scala-js" name="closure-compiler-java-6">
 			<revision name="v20160517" status="release" pubdate="20160707103552" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scala-js/closure-compiler/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
 				<metadata-artifact status="no" details="" size="6703" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\closure-compiler-java-6\ivy-v20160517.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="v20160517" rev-constraint-default="v20160517" rev-constraint-dynamic="v20160517" callerrev="0.6.12"/>
+				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="v20160517" rev-constraint-default="v20160517" rev-constraint-dynamic="v20160517" callerrev="0.6.13"/>
 				<artifacts>
 					<artifact name="closure-compiler-java-6" type="jar" ext="jar" status="no" details="" size="6800665" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\closure-compiler-java-6\jars\closure-compiler-java-6-v20160517.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/closure-compiler-java-6/v20160517/closure-compiler-java-6-v20160517.jar"/>
@@ -138,7 +138,7 @@
 		<module organisation="com.google.code.gson" name="gson">
 			<revision name="2.2.4" status="release" pubdate="20130513225652" resolver="my-maven-proxy-releases" artresolver="my-maven-proxy-releases" homepage="http://code.google.com/p/google-gson/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="8038" time="133" location="C:\Users\Tim\.ivy2\cache\com.google.code.gson\gson\ivy-2.2.4.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\com.google.code.gson\gson\ivy-2.2.4.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom"/>
+				<metadata-artifact status="successful" details="" size="8038" time="90" location="C:\Users\Tim\.ivy2\cache\com.google.code.gson\gson\ivy-2.2.4.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\com.google.code.gson\gson\ivy-2.2.4.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/com/google/code/gson/gson/2.2.4/gson-2.2.4.pom"/>
 				<caller organisation="org.scala-js" name="closure-compiler-java-6" conf="compile, runtime" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="v20160517"/>
 				<artifacts>
 					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="190432" time="0" location="C:\Users\Tim\.ivy2\cache\com.google.code.gson\gson\jars\gson-2.2.4.jar">
@@ -206,13 +206,13 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-js" name="scalajs-ir_2.10">
-			<revision name="0.6.12" status="release" pubdate="20160831162018" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-ir/0.6.12/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+			<revision name="0.6.13" status="release" pubdate="20161013225845" resolver="my-maven-proxy-releases" artresolver="my-maven-proxy-releases" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-ir/0.6.13/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
 				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
-				<metadata-artifact status="no" details="" size="2977" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-ir_2.10\ivy-0.6.12.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-js/scalajs-ir_2.10/0.6.12/scalajs-ir_2.10-0.6.12.pom"/>
-				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="0.6.12" rev-constraint-default="0.6.12" rev-constraint-dynamic="0.6.12" callerrev="0.6.12"/>
+				<metadata-artifact status="successful" details="" size="2200" time="79" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-ir_2.10\ivy-0.6.13.xml" searched="true" original-local-location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-ir_2.10\ivy-0.6.13.xml.original" origin-is-local="false" origin-location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-ir_2.10/0.6.13/scalajs-ir_2.10-0.6.13.pom"/>
+				<caller organisation="org.scala-js" name="scalajs-tools_2.10" conf="default, compile, runtime, master" rev="0.6.13" rev-constraint-default="0.6.13" rev-constraint-dynamic="0.6.13" callerrev="0.6.13"/>
 				<artifacts>
-					<artifact name="scalajs-ir_2.10" type="jar" ext="jar" status="no" details="" size="586644" time="0" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-ir_2.10\jars\scalajs-ir_2.10-0.6.12.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-js/scalajs-ir_2.10/0.6.12/scalajs-ir_2.10-0.6.12.jar"/>
+					<artifact name="scalajs-ir_2.10" type="jar" ext="jar" status="successful" details="" size="629014" time="64" location="C:\Users\Tim\.ivy2\cache\org.scala-js\scalajs-ir_2.10\jars\scalajs-ir_2.10-0.6.13.jar">
+						<origin-location is-local="false" location="http://localhost:8081/artifactory/sbt-maven/org/scala-js/scalajs-ir_2.10/0.6.13/scalajs-ir_2.10-0.6.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
